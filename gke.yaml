@@ -13,7 +13,7 @@ spec:
         app: gcp
     spec:
       containers:
-      - name: gcp-devops-gke
+      - name: gcp-devops-project
         image: gcr.io/deft-cove-434004-u2/test-gcpdevops:latest
         ports:
         - containerPort: 5000
