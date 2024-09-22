@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-project
-        image: gcr.io/deft-cove-434004-u2/test-gcpdevops:latest
+        image: gcr.io/deft-cove-434004-u2/gcpdevops:latest
         ports:
         - containerPort: 5000
         env:
